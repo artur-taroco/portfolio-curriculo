@@ -79,4 +79,4 @@ Este projeto é de uso pessoal e educacional.
 
 ---
 
-Desenvolvido por Artur Taroco
+Desenvolvido por Artur Camilo Taroco
