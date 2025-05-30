@@ -48,7 +48,7 @@
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        <ProjectCard 
+        <ComponentsProjeto 
           v-for="project in projects" 
           :key="project.id"
           :project="project"
@@ -72,7 +72,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import ProjectCard from '../components/ProjectCard.vue'
+import ProjectCard from '../components/ComponentsProjeto.vue'
+import ComponentsProjeto from '../components/ComponentsProjeto.vue';
 
 const projects = ref([
   {

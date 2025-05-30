@@ -19,7 +19,7 @@
     <div class="bg-gray-50 rounded-lg p-6">
       <h2 class="text-2xl font-semibold text-gray-800 mb-8 text-center">Experiencias / Escolaridade</h2>
       <div class="max-w-3xl mx-auto">
-        <TimelineItem 
+        <ComponentsExperiencia 
           v-for="(item, index) in timeline" 
           :key="item.id"
           :item="item"
@@ -119,7 +119,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import TimelineItem from '../components/TimelineItem.vue'
+import ComponentsExperiencia from '../components/ComponentsExperiencia.vue'
 
 const timeline = ref([
   {
